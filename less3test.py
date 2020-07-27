@@ -1,6 +1,7 @@
 import app
+import json
 
-with open('data_file.json', 'r') as read_file:
+with open('data.json', 'r') as read_file:
 	data = json.load(read_file)
 
 app.getAllData(data)
